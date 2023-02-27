@@ -1,1 +1,11 @@
-The notedooks of different architectures.
+The notedooks of three different architectures.
+
+The project uses labeled images and compares three types of architectures, 
+including Yolo, RetinaNet, and Faster R-CNN, to propose the best model for detecting targets in Navantia. 
+
+The main reasons behind our selected models are:
+1. YOLO is a fast and accurate model that can handle large and imbalanced datasets, making it suitable for real-time applications. 
+2. Faster R-CNN is a two-stage model that is accurate and suitable for detecting objects in complex scenes with a low false-positive rate.
+3. RetinaNet is a single-stage model with a focal loss function and fast processing, making it suitable for real-time tasks. 
+
+The objective is to achieve an accurate deployment model and experiment with different architectures for optimization.
