@@ -1,0 +1,43 @@
+model:
+  backbone_kind: resnet50
+  num_classes: 6
+  freeze_bn: true
+  min_size: 640
+  max_size: 1600
+  pretrained: true
+dataset:
+  kind: csv
+  root_dir: false
+  trn_paths: /content/train_data.csv
+  valid_paths: /content/valid_data.csv
+  test_paths: /content/test_data.csv
+dataloader:
+  train_bs: 1
+  valid_bs: 30
+  test_bs: 30
+  args:
+    num_workers: 0
+    pin_memory: true
+transforms:
+- class_name: albumentations.HorizontalFlip
+  params:
+    p: 0.5
+- class_name: albumentations.ShiftScaleRotate
+  params:
+    p: 0.5
+- class_name: albumentations.RandomBrightnessContrast
+  params:
+    p: 0.5
+optimizer:
+  class_name: torch.optim.SGD
+  params:
+    lr: 0.0005
+    weight_decay: 0.0005
+    momentum: 0.85
+scheduler:
+  class_name: torch.optim.lr_scheduler.CosineAnnealingLR
+  params:
+    T_max: 20
+  monitor: null
+  interval: epoch
+  frequency: 1
