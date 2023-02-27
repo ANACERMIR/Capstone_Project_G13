@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>img_04_1584_jpg.rf.3d792ca24e5539c37865b62b2619508b.jpg</filename>
+	<path>img_04_1584_jpg.rf.3d792ca24e5539c37865b62b2619508b.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tugboat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>217</xmin>
+			<xmax>465</xmax>
+			<ymin>296</ymin>
+			<ymax>419</ymax>
+		</bndbox>
+	</object>
+</annotation>

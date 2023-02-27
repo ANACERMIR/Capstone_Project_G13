@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>img_01_0781_jpg.rf.31b7f35a9ded8fa6c110883f0e2cf5b2.jpg</filename>
+	<path>img_01_0781_jpg.rf.31b7f35a9ded8fa6c110883f0e2cf5b2.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>128</width>
+		<height>128</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Portanaves</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>13</xmin>
+			<xmax>127</xmax>
+			<ymin>10</ymin>
+			<ymax>105</ymax>
+		</bndbox>
+	</object>
+</annotation>

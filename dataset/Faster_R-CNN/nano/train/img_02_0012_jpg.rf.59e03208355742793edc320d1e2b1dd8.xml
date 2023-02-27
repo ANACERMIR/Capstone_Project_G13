@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>img_02_0012_jpg.rf.59e03208355742793edc320d1e2b1dd8.jpg</filename>
+	<path>img_02_0012_jpg.rf.59e03208355742793edc320d1e2b1dd8.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>128</width>
+		<height>128</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Fragata</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>86</xmax>
+			<ymin>20</ymin>
+			<ymax>113</ymax>
+		</bndbox>
+	</object>
+</annotation>

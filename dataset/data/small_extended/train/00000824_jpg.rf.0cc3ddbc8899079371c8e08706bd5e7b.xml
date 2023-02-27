@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>00000824_jpg.rf.0cc3ddbc8899079371c8e08706bd5e7b.jpg</filename>
+	<path>00000824_jpg.rf.0cc3ddbc8899079371c8e08706bd5e7b.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>helicopter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>513</xmax>
+			<ymin>11</ymin>
+			<ymax>425</ymax>
+		</bndbox>
+	</object>
+</annotation>
