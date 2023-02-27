@@ -187,6 +187,7 @@ This is controlled via the `dataset.kind` parameter in `hparams.yaml`.
 
 ## References : 
 ```
+https://github.com/benihime91/pytorch_retinanet
 https://arxiv.org/abs/1708.02002
 https://github.com/facebookresearch/detectron2
 https://github.com/pytorch/vision
