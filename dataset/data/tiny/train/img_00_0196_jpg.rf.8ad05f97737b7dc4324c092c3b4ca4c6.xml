@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>img_00_0196_jpg.rf.8ad05f97737b7dc4324c092c3b4ca4c6.jpg</filename>
+	<path>img_00_0196_jpg.rf.8ad05f97737b7dc4324c092c3b4ca4c6.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>256</width>
+		<height>256</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>submarine</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>40</xmin>
+			<xmax>209</xmax>
+			<ymin>141</ymin>
+			<ymax>188</ymax>
+		</bndbox>
+	</object>
+</annotation>

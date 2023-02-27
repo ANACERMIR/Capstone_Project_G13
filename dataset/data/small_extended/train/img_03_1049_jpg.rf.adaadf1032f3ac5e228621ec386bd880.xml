@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>img_03_1049_jpg.rf.adaadf1032f3ac5e228621ec386bd880.jpg</filename>
+	<path>img_03_1049_jpg.rf.adaadf1032f3ac5e228621ec386bd880.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cruises</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>5</xmin>
+			<xmax>513</xmax>
+			<ymin>148</ymin>
+			<ymax>457</ymax>
+		</bndbox>
+	</object>
+</annotation>
